@@ -2,6 +2,33 @@
 Emmet css practice
 */
 
+/*css abbreviation*/
 div{
-
+/*m10, m10p, m10em, m20-30, mb, mt, ml, mr, pos:a, fl:l, bd+ */
+    margin: 10px;
+    margin: 10%;
+    margin: 10em;
+    margin: 20px 30px;
+    margin-bottom: ;
+    margin-top: ;
+    margin-left: ;
+    margin-right: ;
+    position: absolute;
+    float: left;
+    border: 5px solid #000;    
 }
+
+/*prefix*/
+div{
+/*    -wmso-bdrs*/
+/* shift cmd r auto comletion   */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+    border-radius: ;
+}
+
+/*match tag pair*/
+
+
