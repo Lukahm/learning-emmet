@@ -14,6 +14,7 @@
     <title>Emmet</title>
 </head>
 <body>
+<!--element abbre-->
     <!--    script:src-->
     <script src=""></script>
     <!--    bq-->
@@ -25,6 +26,144 @@
     <header></header>
     <!--   ftr-->
     <footer></footer>
+
+<!-------child element--------->
+    <!--    ul>li or ul+-->
+    <ul>
+       <li></li>
+    </ul>
+    
+    <!--    table>tr>td or table+-->
+    <table>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <!--    select>option or select+-->
+    <select name="" id="">
+        <option value=""></option>
+    </select>
+    
+<!-----brother element------>
+    <!--    h3+p-->
+   <h3></h3>
+   <p></p>
+   <!--   dl>dt+dd-->
+   <dl>
+       <dt></dt>
+       <dd></dd>
+   </dl>
+   
+<!--parent element   -->
+    <!--    dl>dt+dd>span^^div-->
+    <dl>
+        <dt></dt>
+        <dd><span></span></dd>
+    </dl>
+    <div></div>
+
+<!-- duplication     -->
+<!--    table>tr*3>td*5   -->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>   
+    
+<!--    div>(header>ul>li*5>a)+section+footer-->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <section></section>
+        <footer></footer>
+    </div>
+
+<!-- property operator       -->
+    <!--    div#message>div.alert.alert-success-->
+    <div id="message">
+        <div class="alert alert-success"></div>
+    </div>
+    
+    <!--    a[alt=hello title=world]-->
+    <a href="" alt="hello" title="world"></a>
+
+    <!--    input:submit-->
+    <input type="submit" value="">
+    
+
+    
+<!--sequence number    -->
+    <!--ul>li.item$*5    -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>    
+    
+    <!--    ul>li.item$$*5 -->
+    <ul>
+        <li class="item01"></li>
+        <li class="item02"></li>
+        <li class="item03"></li>
+        <li class="item04"></li>
+        <li class="item05"></li>
+    </ul> 
+    
+    <!--    ul>li.item$@3*5 -->
+    <ul>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+        <li class="item6"></li>
+        <li class="item7"></li>
+    </ul> 
+    
+    <!--    ul>li.item$@-3*5 -->
+    <ul>
+        <li class="item7"></li>
+        <li class="item6"></li>
+        <li class="item5"></li>
+        <li class="item4"></li>
+        <li class="item3"></li>
+    </ul>
+    
+    <!--    ul>li.item${property$}*5-->
+    <ul>
+        <li class="item1">property1</li>
+        <li class="item2">property2</li>
+        <li class="item3">property3</li>
+        <li class="item4">property4</li>
+        <li class="item5">property5</li>
+    </ul>
+    
+    
     
 </body>
 </html>
